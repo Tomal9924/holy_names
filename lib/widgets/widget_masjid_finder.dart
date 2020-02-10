@@ -6,7 +6,7 @@ class MasjidFinder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 120,
+      height: 105,
       child: Card(
         color: utils.color,
         child: Column(

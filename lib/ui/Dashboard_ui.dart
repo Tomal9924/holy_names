@@ -38,59 +38,61 @@ class _DashboardState extends State<Dashboard> {
                     margin:EdgeInsets.only(top: 0),
                     padding:EdgeInsets.only(top: 0),
                     color: Color(0xFFC1D6D9),
-                    height: 365,
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
                         Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Expanded(
-                              flex: 1,
-                              child: PrayerTime(),
+                                flex:1,
+                                child: PrayerTime()
                             ),
                             Expanded(
-                              flex: 1,
-                              child: MasjidFinder(),
+                                flex: 1,
+                                child: MasjidFinder()
                             ),
                             Expanded(
-                              flex: 1,
-                              child: AlQuran(),
+                                flex: 1,
+                                child: AlQuran()
                             ),
-
                           ],
                         ),
                         Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Expanded(
-                              flex: 1,
-                              child: QiblaCompass(),
+                                flex:1,
+                                child: NamesOfAllah()
                             ),
                             Expanded(
-                              flex: 1,
-                              child: Dua(),
+                                flex: 1,
+                                child: ArabicCalender()
                             ),
                             Expanded(
-                              flex: 1,
-                              child: NamesOfAllah(),
+                                flex: 1,
+                                child: QiblaCompass()
                             ),
-
                           ],
                         ),
                         Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Expanded(
-                              flex: 1,
-                              child: Tasbih(),
+                                flex:1,
+                                child: RamjanUpdate()
                             ),
                             Expanded(
-                              flex: 1,
-                              child: RamjanUpdate(),
+                                flex: 1,
+                                child: Tasbih()
                             ),
                             Expanded(
-                              flex: 1,
-                              child: ArabicCalender(),
+                                flex: 1,
+                                child: AlQuran()
                             ),
-
                           ],
                         ),
                       ],

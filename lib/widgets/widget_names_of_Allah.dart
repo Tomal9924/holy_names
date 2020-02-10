@@ -6,7 +6,7 @@ class NamesOfAllah extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 120,
+      height: 100,
       child: Card(
         color: utils.color,
         child: Column(
